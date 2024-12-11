@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EShop.Services", "EShop.Services", "{0CB3F172-0E37-4A0B-8487-D9765FB12991}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{0A652951-C5F9-44EE-AF19-D620A9C695CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "EShop.Services\Catalog\Catalog.API\Catalog.API.csproj", "{BF3EF102-CD63-4C6A-887E-D357D7A9982D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks.csproj", "{42D1D9F4-8123-486A-9A73-753B219A2354}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF3EF102-CD63-4C6A-887E-D357D7A9982D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3EF102-CD63-4C6A-887E-D357D7A9982D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3EF102-CD63-4C6A-887E-D357D7A9982D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3EF102-CD63-4C6A-887E-D357D7A9982D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D1D9F4-8123-486A-9A73-753B219A2354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D1D9F4-8123-486A-9A73-753B219A2354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D1D9F4-8123-486A-9A73-753B219A2354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D1D9F4-8123-486A-9A73-753B219A2354}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A652951-C5F9-44EE-AF19-D620A9C695CF} = {0CB3F172-0E37-4A0B-8487-D9765FB12991}
+		{BF3EF102-CD63-4C6A-887E-D357D7A9982D} = {0A652951-C5F9-44EE-AF19-D620A9C695CF}
+	EndGlobalSection
+EndGlobal
