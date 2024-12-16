@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddMarten(options =>
 {
     // Establish the connection string to your Marten database
-    options.Connection(builder.Configuration.GetConnectionString("Marten")!);
+    options.Connection(builder.Configuration.GetConnectionString("CatalogDatabase")!);
 
     // Specify that we want to use STJ as our serializer
     options.UseSystemTextJsonForSerialization();
@@ -25,6 +25,6 @@ builder.Services.AddMediatR(config =>
 
 var app = builder.Build();
 
-app.MapCarter();
+app.MapGroup("/api").MapCarter();
 
 app.Run();

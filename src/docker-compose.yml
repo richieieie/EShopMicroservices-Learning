@@ -1,6 +1,6 @@
 services:
-  catalog.api:
-    image: ${DOCKER_REGISTRY-}catalogapi
-    build:
-      context: .
-      dockerfile: EShop.Services/Catalog/Catalog.API/Dockerfile
+  catalog_db:
+    image: postgres:17.2-bookworm
+  
+volumes:
+  postgres_catalog:
