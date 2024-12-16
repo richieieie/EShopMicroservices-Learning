@@ -1,0 +1,6 @@
+services:
+  catalog_db:
+    image: postgres:17.2-bookworm
+  
+volumes:
+  postgres_catalog:
